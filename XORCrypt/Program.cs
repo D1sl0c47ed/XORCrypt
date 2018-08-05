@@ -10,9 +10,7 @@ namespace XORCrypt
     {
         static void Main(string[] args)
         {
-            //Set console encoding
-            Console.InputEncoding = Encoding.ASCII; Console.OutputEncoding = Encoding.ASCII; 
-
+            
             //Ask user to input plaintext.
             Console.Write("Please enter plaintext:");
             string plainText = Console.ReadLine();
